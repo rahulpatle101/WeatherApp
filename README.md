@@ -1,38 +1,28 @@
-**React Bootstrap Boilerplate**
+**WeatherApp**
 
-React boilerplate which contains bootstrap packages into it.
+Simple Weather App built using React and Bootstrap.
 
 ### Features: ###
-* It contains react with webpack configuration in it.
+* Uses Open Weather Map API.
 * It has bootstrap package with webpack configuration to transpile bootstrap.
-* It has Jquery package with webpack configuration.
-* It has **class** attribute transpile into **className**.
+* It has LESS css loader webpack configuration.
+* No jQuery.
+* Server configuration done to be deployed in Heroku.
 
 ### Webpack configs contains: ###
 * babels.
-* jquery. 
 * bootstrap.css and bootstrap.js
-* loaders needed for this boilerplate
+* loaders needed for LESS
 
-### Usages: ###
+### Play with it: ###
 * Clone or download repo
-* run npm install in command prompt as admin
-* run webpack --w
-* run node server.js in command prompt as admin.
-* put your component into components folder
-* Delete Example file if needed
-
-### No Jquery Configuration ###
-If the project does not need JQuery, follow steps below:
-
-* Clone repo
-* Open package.json, remove jquery package from it.
-* Open webpack.config.js, remove following codes at entry section:
-
-    * `'script!jquery/dist/jquery.min.js'`
-
-    * `'script!bootstrap/dist/js/bootstrap.min.js'`
-
 * run npm install
 * run webpack --w
-* run node server.js
+* run node server in new terminal tab.
+
+### Many Thanks: ###
+* [React Bootstrap Boilerplate by Kenny Soetjipto](https://bitbucket.org/theokennygist/react-bootstrap-boilerplate)
+
+* [Less Loader by Webpack](https://github.com/webpack/less-loader)
+
+* [Open Weather Map API](http://openweathermap.org)
