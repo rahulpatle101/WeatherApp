@@ -1,6 +1,8 @@
 **WeatherApp**
 
-Simple Weather App built using React and Bootstrap.
+Simple Weather App built using React and Bootstrap. 
+
+[LIVE DEMO](http://warm-inlet-88403.herokuapp.com/)
 
 ### Features: ###
 * Uses Open Weather Map API.
