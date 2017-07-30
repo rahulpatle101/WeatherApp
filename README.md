@@ -18,9 +18,9 @@ Simple Weather App built using React and Bootstrap.
 
 ### Play with it: ###
 * Clone or download repo
-* run npm install
-* run webpack --w
-* run node server in new terminal tab.
+* npm install
+* webpack --w
+* (open new terminal, go to dir, run server) node server.js
 
 ### Many Thanks: ###
 * [React Bootstrap Boilerplate by Kenny Soetjipto](https://bitbucket.org/theokennygist/react-bootstrap-boilerplate)
